@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 @ContextConfiguration(locations = {"classpath*:test-spring-dao.xml"})
 public class UserDaoImplTest {
 
-    @Autowired
+   @Autowired
     private UserDao userDao;
 
     @org.junit.Test
